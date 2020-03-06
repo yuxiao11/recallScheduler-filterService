@@ -1,0 +1,1568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="871089e6-b690-4ada-94bf-8f8b01057d50" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/../recall-scheduler-filterPart-eureka1/target/" />
+    <ignored path="$PROJECT_DIR$/recall-scheduler-filterPart-eureka1/target/" />
+    <ignored path="$PROJECT_DIR$/../recall-scheduler-filterPart-eureka2/target/" />
+    <ignored path="$PROJECT_DIR$/recall-scheduler-filterService-eureka1/target/" />
+    <ignored path="$PROJECT_DIR$/../recall-scheduler-filterService-eureka1/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ApplicationConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/apolloConf/ApplicationConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BossApplicationConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/apolloConf/BossApplicationConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DebugUserConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/apolloConf/DebugUserConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DocSourceFilterConfigUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/apolloConf/DocSourceFilterConfigUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JpPreTopPhoneTypeConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/apolloConf/JpPreTopPhoneTypeConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserActionUtil.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/utils/UserActionUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="348" column="12" selection-start-line="348" selection-start-column="12" selection-end-line="348" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KeywordFilterConfigUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/apolloConf/KeywordFilterConfigUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LastDocBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/bean/LastDocBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserSession.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/user/UserSession.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="104" column="33" lean-forward="true" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApolloConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/support/ApolloConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="169" column="41" selection-start-line="169" selection-start-column="41" selection-end-line="169" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>spring-core</find>
+      <find>spring</find>
+      <find>spring.version</find>
+      <find>servletEndpointRegistrar</find>
+      <find>recall-scheduler</find>
+      <find>recall-scheduler-f</find>
+      <find>recall-scheduler-filterPart</find>
+      <find>recall-scheduler-filterService</find>
+      <find>spring-boot-starter</find>
+      <find>getVirtualServerName</find>
+      <find>org.apache</find>
+      <find>javax.servlet</find>
+      <find>javax</find>
+      <find>verture</find>
+      <find>spring.datasource.druid.read.driverClassName</find>
+      <find>elasticsearch</find>
+      <find>hbase-common</find>
+      <find>commons-collections</find>
+      <find>commons-dbcp2</find>
+      <find>hbase-client</find>
+      <find>jar</find>
+      <find>pom</find>
+      <find>hbase.version</find>
+      <find>packaging</find>
+      <find>netflix-hystrix</find>
+      <find>junit</find>
+      <find>cacheManager</find>
+      <find>cageManager</find>
+      <find>mapper scanner configurer</find>
+      <find>getFallback</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>recall-scheduler-filterService</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\gityuxiao\recall-scheduler-filterPart\src\main\java\com\ifeng\recallScheduler\filterStrategy</dir>
+      <dir>D:\gityuxiao\recall-scheduler-filterPart</dir>
+    </dirStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/redis/jedisPool/SpecialFilterUserJedisUtil.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/preloadDocument2Cache/LoadDocument2cache.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/constant/GyConstant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/constant/LastDocTypeEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/preloadDocument2Cache/loadDocument2cache.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/preloadDocument2Cache/LoadDocument2cache.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/user/Index4User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/utils/DocUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/mvc-config-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/crontabTask/ScheduleManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/user/NetStatSession.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/user/userBean/LastPushBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/user/userBean/LastDeeplinkBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/user/EvPosFeed.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/user/Reason.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/user/UserSession.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/request/RequestInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/support/RequestSupport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/utils/SpecialFilterUserUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/rule/impl/RuleHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/support/ApolloConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/apolloConf/DocSourceFilterConfigUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/filterAssemble/SpecialFilterHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/filterController/service/impl/FilterService.java" />
+        <option value="$PROJECT_DIR$/../recall-scheduler-filterPart-eureka1/pom.xml" />
+        <option value="$PROJECT_DIR$/../recall-scheduler-filterPart-eureka1/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../recall-scheduler-filterPart-eureka2/pom.xml" />
+        <option value="$PROJECT_DIR$/../recall-scheduler-filterPart-eureka2/src/main/java/eurekaServer_6002.java" />
+        <option value="$PROJECT_DIR$/../recall-scheduler-filterPart-eureka2/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../recall-scheduler-filterPart-eureka1/src/main/java/eurekaServer_6001.java" />
+        <option value="$PROJECT_DIR$/../recall-scheduler-filterPart-eureka1/src/main/java/com/eurekaServer/eurekaServer_6001.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/request/LogicParams.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/bloomFilter/ConfBloomFilterLocal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/bloomFilter/Hash.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/user/UserModelAPI.java" />
+        <option value="$PROJECT_DIR$/../recall-scheduler-filterService-eureka1/src/main/java/com/controller/eureka1.java" />
+        <option value="$PROJECT_DIR$/../recall-scheduler-filterService-eureka1/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/../recall-scheduler-filterService-eureka1/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/utils/TrieTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/utils/ToolAssit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/mapper/ProductMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/service/impl/FilterService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/mapper/FilterServiceMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/mapper/DocumentMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/service/impl/DocumentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/service/FilterService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/contoller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/FilterController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/utils/UserActionUtil.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="recall-scheduler-filterService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="recall-scheduler-filterService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="recall-scheduler-filterService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="recall-scheduler-filterService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="recall-scheduler-filterService-eureka1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="recall-scheduler-filterService-eureka1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="recall-scheduler-filterService-eureka1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2994" />
+    <option name="y" value="220" />
+    <option name="width" value="968" />
+    <option name="height" value="528" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="recall-scheduler-filterService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recall-scheduler-filterService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recall-scheduler-filterService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recall-scheduler-filterService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recall-scheduler-filterService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recall-scheduler-filterService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recall-scheduler-filterService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recall-scheduler-filterService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recall-scheduler-filterService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recall-scheduler-filterService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recall-scheduler-filterService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recall-scheduler-filterService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ifeng" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recall-scheduler-filterService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recall-scheduler-filterService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ifeng" type="462c0819:PsiDirectoryNode" />
+              <item name="recallScheduler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recall-scheduler-filterService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recall-scheduler-filterService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ifeng" type="462c0819:PsiDirectoryNode" />
+              <item name="recallScheduler" type="462c0819:PsiDirectoryNode" />
+              <item name="apolloConf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recall-scheduler-filterService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recall-scheduler-filterService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ifeng" type="462c0819:PsiDirectoryNode" />
+              <item name="recallScheduler" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recall-scheduler-filterService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recall-scheduler-filterService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ifeng" type="462c0819:PsiDirectoryNode" />
+              <item name="recallScheduler" type="462c0819:PsiDirectoryNode" />
+              <item name="contoller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recall-scheduler-filterService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recall-scheduler-filterService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ifeng" type="462c0819:PsiDirectoryNode" />
+              <item name="recallScheduler" type="462c0819:PsiDirectoryNode" />
+              <item name="crontabTask" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recall-scheduler-filterService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recall-scheduler-filterService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ifeng" type="462c0819:PsiDirectoryNode" />
+              <item name="recallScheduler" type="462c0819:PsiDirectoryNode" />
+              <item name="ctrrank" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recall-scheduler-filterService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recall-scheduler-filterService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ifeng" type="462c0819:PsiDirectoryNode" />
+              <item name="recallScheduler" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recall-scheduler-filterService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recall-scheduler-filterService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ifeng" type="462c0819:PsiDirectoryNode" />
+              <item name="recallScheduler" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recall-scheduler-filterService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recall-scheduler-filterService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ifeng" type="462c0819:PsiDirectoryNode" />
+              <item name="recallScheduler" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recall-scheduler-filterService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recall-scheduler-filterService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recall-scheduler-filterService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recall-scheduler-filterService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="baseconfig" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recall-scheduler-filterService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recall-scheduler-filterService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="develop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recall-scheduler-filterService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recall-scheduler-filterService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="develop" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recall-scheduler-filterService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recall-scheduler-filterService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recall-scheduler-filterService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recall-scheduler-filterService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recall-scheduler-filterService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recall-scheduler-filterService-eureka1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recall-scheduler-filterService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recall-scheduler-filterService-eureka1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recall-scheduler-filterService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recall-scheduler-filterService-eureka1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recall-scheduler-filterService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recall-scheduler-filterService-eureka1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recall-scheduler-filterService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recall-scheduler-filterService-eureka1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recall-scheduler-filterService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recall-scheduler-filterService-eureka1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recall-scheduler-filterService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recall-scheduler-filterService-eureka1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recall-scheduler-filterService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="loc&#9;FILE&#9;file://D:/gityuxiao/recall-scheduler-filterPart/src/main/java/com/ifeng/recallScheduler/apolloConf/ApolloConstant.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.39655173" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ifeng.recallScheduler.service.impl" />
+      <recent name="com.ifeng.recallScheduler.mapper" />
+      <recent name="com.ifeng.recallScheduler.bloomFilter" />
+      <recent name="com.ifeng.recallScheduler.user" />
+      <recent name="com.ifeng.recallScheduler.user.userBean" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gityuxiao\recall-scheduler-filterService\src\main\resources" />
+      <recent name="D:\gityuxiao\recall-scheduler-filterService-eureka1\src\main\resources" />
+      <recent name="D:\gityuxiao\recall-scheduler-filterPart-eureka2\src\main\resources" />
+      <recent name="D:\gityuxiao\recall-scheduler-filterPart-eureka1\src\main\resources" />
+      <recent name="D:\gityuxiao\recall-scheduler-filterPart\src\main\java\com\ifeng\recallScheduler\utils" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.eureka1">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="eureka1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.controller.eureka1" />
+      <module name="recall-scheduler-filterService-eureka1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="eurekaServer_6001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eurekaServer.eurekaServer_6001" />
+      <module name="recall-scheduler-filterPart-eureka1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="eureka1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="recall-scheduler-filterService-eureka1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.controller.eureka1" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.eurekaServer_6001" />
+      <item itemvalue="Application.eureka1" />
+      <item itemvalue="Spring Boot.eureka1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.eureka1" />
+        <item itemvalue="Application.eurekaServer_6001" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="871089e6-b690-4ada-94bf-8f8b01057d50" name="Default" comment="" />
+      <created>1582954228388</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582954228388</updated>
+      <workItem from="1582954234938" duration="53801000" />
+      <workItem from="1583129514622" duration="71510000" />
+      <workItem from="1583324000577" duration="31204000" />
+      <workItem from="1583412702491" duration="595000" />
+      <workItem from="1583413389778" duration="18009000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="175119000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2552" y="122" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32885906" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32942432" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32997763" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37248322" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32997763" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29424307" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
+      <window_info anchor="right" id="SciView" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info id="Image Layers" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.44071588" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32997763" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32942432" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17803837" />
+      <window_info anchor="right" id="SciView" order="9" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32885906" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/filterController/service/impl/FilterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="303" column="11" selection-start-line="303" selection-start-column="11" selection-end-line="303" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/preloadDocument2Cache/LoadDocument2cache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="223" column="18" selection-start-line="223" selection-start-column="18" selection-end-line="223" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/support/RequestSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recall-scheduler-filterPart-eureka1/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recall-scheduler-filterPart-eureka1/src/main/java/com/eurekaServer/eurekaServer_6001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/request/LogicParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2159">
+          <caret line="137" column="34" selection-start-line="137" selection-start-column="34" selection-end-line="137" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/bloomFilter/ByteBloomFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="84" column="13" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/bloomFilter/Hash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/user/UserModelAPI.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/bloomFilter/ConfBloomFilterLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="56" column="94" selection-start-line="56" selection-start-column="78" selection-end-line="56" selection-end-column="94" />
+          <folding>
+            <element signature="e#1380#1406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/request/RequestInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recall-scheduler-filterService-eureka1/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/.name">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/recall-scheduler-filterService:recall-scheduler-filterService:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>recall-scheduler-filterService:recall-scheduler-filterService:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">recall-scheduler-filterService:recall-scheduler-filterService:1.0-SNAPSHOT</node>
+            <node x="" y="">org.apache.hbase:hbase-client:jar:1.2.0</node>
+            <node x="" y="">org.apache.hbase:hbase-common:jar:1.2.0</node>
+            <node x="" y="">org.apache.hbase:hbase-hadoop-compat:jar:1.2.0</node>
+            <node x="" y="">org.apache.hbase:hbase-hadoop-compat:jar:1.2.0/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">org.apache.hbase:hbase-hadoop-compat:jar:1.2.0/org.apache.commons:commons-math:jar:2.2</node>
+            <node x="" y="">org.apache.hbase:hbase-hadoop-compat:jar:1.2.0/com.github.stephenc.findbugs:findbugs-annotations:jar:1.3.9-1</node>
+            <node x="" y="">org.apache.hbase:hbase-hadoop-compat:jar:1.2.0/log4j:log4j:jar:1.2.17</node>
+            <node x="" y="">org.apache.hbase:hbase-hadoop-compat:jar:1.2.0/junit:junit:jar:4.12</node>
+            <node x="" y="">org.apache.hbase:hbase-hadoop-compat:jar:1.2.0/junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:2.1</node>
+            <node x="" y="">org.apache.hbase:hbase-hadoop-compat:jar:1.2.0/junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:2.1/org.hamcrest:hamcrest:jar:2.1</node>
+            <node x="" y="">com.ifeng.userprofile:userprofile-search:jar:3.5.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot:jar:2.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.12.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.7</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/jakarta.annotation:jakarta.annotation-api:jar:1.3.5</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-actuator:jar:2.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.2.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.10.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.2.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.10.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.2.2.RELEASE/io.micrometer:micrometer-core:jar:1.3.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.2.2.RELEASE/io.micrometer:micrometer-core:jar:1.3.1/org.hdrhistogram:HdrHistogram:jar:2.1.11</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.2.2.RELEASE/io.micrometer:micrometer-core:jar:1.3.1/org.latencyutils:LatencyUtils:jar:2.0.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.2.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.2.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-context:jar:2.2.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-context:jar:2.2.1.RELEASE/org.springframework.security:spring-security-crypto:jar:5.2.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:2.2.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.2.1.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.9.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.2.1.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.9.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.64</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.2.1.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.9.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.64/org.bouncycastle:bcprov-jdk15on:jar:1.64</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-hystrix:jar:2.2.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-hystrix:jar:2.2.1.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:2.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.2.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.2.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.2.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.2.1.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.2.1.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6/com.google.code.findbugs:jsr305:jar:3.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.2.1.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6/commons-configuration:commons-configuration:jar:1.8</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.2.1.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6/com.google.guava:guava:jar:16.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.2.1.RELEASE/commons-configuration:commons-configuration:jar:1.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.2.1.RELEASE/com.netflix.hystrix:hystrix-core:jar:1.5.18</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.2.1.RELEASE/com.netflix.hystrix:hystrix-core:jar:1.5.18/io.reactivex:rxjava:jar:1.3.8</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.2.1.RELEASE/com.netflix.hystrix:hystrix-serialization:jar:1.5.18</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.2.1.RELEASE/com.netflix.hystrix:hystrix-serialization:jar:1.5.18/com.fasterxml.jackson.module:jackson-module-afterburner:jar:2.10.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.2.1.RELEASE/com.netflix.hystrix:hystrix-serialization:jar:1.5.18/com.fasterxml.jackson.core:jackson-annotations:jar:2.10.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.2.1.RELEASE/com.netflix.hystrix:hystrix-metrics-event-stream:jar:1.5.18</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.2.1.RELEASE/com.netflix.hystrix:hystrix-javanica:jar:1.5.18</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.2.1.RELEASE/com.netflix.hystrix:hystrix-javanica:jar:1.5.18/org.ow2.asm:asm:jar:5.0.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.2.1.RELEASE/com.netflix.hystrix:hystrix-javanica:jar:1.5.18/org.aspectj:aspectjweaver:jar:1.9.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.2.1.RELEASE/com.netflix.hystrix:hystrix-javanica:jar:1.5.18/com.google.guava:guava:jar:15.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.2.1.RELEASE/io.reactivex:rxjava-reactive-streams:jar:1.2.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.2.1.RELEASE/io.reactivex:rxjava-reactive-streams:jar:1.2.1/org.reactivestreams:reactive-streams:jar:1.0.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:2.2.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/org.codehaus.jettison:jettison:jar:1.3.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/org.codehaus.jettison:jettison:jar:1.3.7/stax:stax-api:jar:1.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/commons-jxpath:commons-jxpath:jar:1.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/org.antlr:stringtemplate:jar:3.2.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/antlr:antlr:jar:2.7.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.guava:guava:jar:14.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.code.gson:gson:jar:2.8.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/javax.ws.rs:jsr311-api:jar:1.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.servo:servo-core:jar:0.12.21</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.servo:servo-core:jar:0.12.21/com.google.guava:guava:jar:19.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.sun.jersey:jersey-core:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.sun.jersey:jersey-client:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.sun.jersey:jersey-client:jar:1.19.1/com.sun.jersey:jersey-core:jar:1.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/org.apache.httpcomponents:httpclient:jar:4.5.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.google.inject:guice:jar:4.1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.google.inject:guice:jar:4.1.0/javax.inject:javax.inject:jar:1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.google.inject:guice:jar:4.1.0/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.google.inject:guice:jar:4.1.0/com.google.guava:guava:jar:16.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.13</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.13/com.fasterxml.woodstox:woodstox-core:jar:5.2.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.13/com.fasterxml.woodstox:woodstox-core:jar:5.2.1/org.codehaus.woodstox:stax2-api:jar:4.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.netflix.ribbon:ribbon-transport:jar:2.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.netflix.ribbon:ribbon-transport:jar:2.3.0/io.reactivex:rxnetty-contexts:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.netflix.ribbon:ribbon-transport:jar:2.3.0/io.reactivex:rxnetty-servo:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/io.reactivex:rxnetty:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/commons-configuration:commons-configuration:jar:1.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.3.0/com.google.guava:guava:jar:16.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.3.0/commons-configuration:commons-configuration:jar:1.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.3.0/commons-collections:commons-collections:jar:3.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.3.0/com.netflix.netflix-commons:netflix-commons-util:jar:0.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.3.0/com.netflix.netflix-commons:netflix-statistics:jar:0.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:2.2.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-loadbalancer:jar:2.2.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-loadbalancer:jar:2.2.1.RELEASE/io.projectreactor:reactor-core:jar:3.3.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-loadbalancer:jar:2.2.1.RELEASE/io.projectreactor.addons:reactor-extra:jar:3.3.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:2.2.1.RELEASE/org.springframework.boot:spring-boot-starter-cache:jar:2.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:2.2.1.RELEASE/com.stoyanr:evictor:jar:1.0.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.11.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.11.1/xmlpull:xmlpull:jar:1.1.3.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.1.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.11.1/xpp3:xpp3_min:jar:1.1.4c</node>
+            <node x="" y="">org.elasticsearch:elasticsearch:jar:6.0.0</node>
+            <node x="" y="">org.elasticsearch:elasticsearch:jar:6.0.0/org.apache.lucene:lucene-core:jar:7.0.1</node>
+            <node x="" y="">org.elasticsearch:elasticsearch:jar:6.0.0/org.apache.lucene:lucene-analyzers-common:jar:7.0.1</node>
+            <node x="" y="">org.elasticsearch:elasticsearch:jar:6.0.0/org.apache.lucene:lucene-backward-codecs:jar:7.0.1</node>
+            <node x="" y="">org.elasticsearch:elasticsearch:jar:6.0.0/org.apache.lucene:lucene-grouping:jar:7.0.1</node>
+            <node x="" y="">org.elasticsearch:elasticsearch:jar:6.0.0/org.apache.lucene:lucene-highlighter:jar:7.0.1</node>
+            <node x="" y="">org.elasticsearch:elasticsearch:jar:6.0.0/org.apache.lucene:lucene-join:jar:7.0.1</node>
+            <node x="" y="">org.elasticsearch:elasticsearch:jar:6.0.0/org.apache.lucene:lucene-memory:jar:7.0.1</node>
+            <node x="" y="">org.elasticsearch:elasticsearch:jar:6.0.0/org.apache.lucene:lucene-misc:jar:7.0.1</node>
+            <node x="" y="">org.elasticsearch:elasticsearch:jar:6.0.0/org.apache.lucene:lucene-queries:jar:7.0.1</node>
+            <node x="" y="">org.elasticsearch:elasticsearch:jar:6.0.0/org.apache.lucene:lucene-queryparser:jar:7.0.1</node>
+            <node x="" y="">org.elasticsearch:elasticsearch:jar:6.0.0/org.apache.lucene:lucene-sandbox:jar:7.0.1</node>
+            <node x="" y="">org.elasticsearch:elasticsearch:jar:6.0.0/org.apache.lucene:lucene-spatial:jar:7.0.1</node>
+            <node x="" y="">org.elasticsearch:elasticsearch:jar:6.0.0/org.apache.lucene:lucene-spatial-extras:jar:7.0.1</node>
+            <node x="" y="">org.elasticsearch:elasticsearch:jar:6.0.0/org.apache.lucene:lucene-spatial3d:jar:7.0.1</node>
+            <node x="" y="">org.elasticsearch:elasticsearch:jar:6.0.0/org.apache.lucene:lucene-suggest:jar:7.0.1</node>
+            <node x="" y="">org.elasticsearch:elasticsearch:jar:6.0.0/org.elasticsearch:securesm:jar:1.1</node>
+            <node x="" y="">org.elasticsearch:elasticsearch:jar:6.0.0/net.sf.jopt-simple:jopt-simple:jar:5.0.2</node>
+            <node x="" y="">org.elasticsearch:elasticsearch:jar:6.0.0/com.carrotsearch:hppc:jar:0.7.1</node>
+            <node x="" y="">org.elasticsearch:elasticsearch:jar:6.0.0/joda-time:joda-time:jar:2.10.5</node>
+            <node x="" y="">org.elasticsearch:elasticsearch:jar:6.0.0/org.yaml:snakeyaml:jar:1.25</node>
+            <node x="" y="">org.elasticsearch:elasticsearch:jar:6.0.0/com.fasterxml.jackson.core:jackson-core:jar:2.10.1</node>
+            <node x="" y="">org.elasticsearch:elasticsearch:jar:6.0.0/com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.10.1</node>
+            <node x="" y="">org.elasticsearch:elasticsearch:jar:6.0.0/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.10.1</node>
+            <node x="" y="">org.elasticsearch:elasticsearch:jar:6.0.0/com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.10.1</node>
+            <node x="" y="">org.elasticsearch:elasticsearch:jar:6.0.0/com.tdunning:t-digest:jar:3.0</node>
+            <node x="" y="">org.elasticsearch:elasticsearch:jar:6.0.0/org.hdrhistogram:HdrHistogram:jar:2.1.9</node>
+            <node x="" y="">org.elasticsearch:elasticsearch:jar:6.0.0/org.apache.logging.log4j:log4j-api:jar:2.12.1</node>
+            <node x="" y="">org.elasticsearch:elasticsearch:jar:6.0.0/org.elasticsearch:jna:jar:4.4.0-1</node>
+            <node x="" y="">commons-dbcp:commons-dbcp:jar:1.4</node>
+            <node x="" y="">commons-dbcp:commons-dbcp:jar:1.4/commons-pool:commons-pool:jar:1.6</node>
+            <node x="" y="">org.apache.commons:commons-dbcp2:jar:2.0.1</node>
+            <node x="" y="">org.apache.commons:commons-dbcp2:jar:2.0.1/org.apache.commons:commons-pool2:jar:2.7.0</node>
+            <node x="" y="">org.springframework:spring-context:jar:5.2.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:5.2.2.RELEASE/org.springframework:spring-aop:jar:5.2.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:5.2.2.RELEASE/org.springframework:spring-beans:jar:5.2.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context-support:jar:5.2.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-core:jar:5.2.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-core:jar:5.2.2.RELEASE/org.springframework:spring-jcl:jar:5.2.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-expression:jar:5.2.2.RELEASE</node>
+            <node x="" y="">commons-collections:commons-collections:jar:3.2.1</node>
+            <node x="" y="">org.mybatis:mybatis:jar:3.2.8</node>
+            <node x="" y="">org.mybatis:mybatis-spring:jar:1.1.1</node>
+            <node x="" y="">org.mybatis:mybatis-spring:jar:1.1.1/org.mybatis:mybatis:jar:3.1.1</node>
+            <node x="" y="">org.mybatis:mybatis-spring:jar:1.1.1/org.springframework:spring-tx:jar:5.2.2.RELEASE</node>
+            <node x="" y="">org.mybatis:mybatis-spring:jar:1.1.1/org.springframework:spring-jdbc:jar:5.2.2.RELEASE</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:6.0.0</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:6.0.0/org.elasticsearch.plugin:transport-netty4-client:jar:6.0.0</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:6.0.0/org.elasticsearch.plugin:transport-netty4-client:jar:6.0.0/io.netty:netty-buffer:jar:4.1.43.Final</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:6.0.0/org.elasticsearch.plugin:transport-netty4-client:jar:6.0.0/io.netty:netty-codec:jar:4.1.43.Final</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:6.0.0/org.elasticsearch.plugin:transport-netty4-client:jar:6.0.0/io.netty:netty-codec-http:jar:4.1.43.Final</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:6.0.0/org.elasticsearch.plugin:transport-netty4-client:jar:6.0.0/io.netty:netty-common:jar:4.1.43.Final</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:6.0.0/org.elasticsearch.plugin:transport-netty4-client:jar:6.0.0/io.netty:netty-handler:jar:4.1.43.Final</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:6.0.0/org.elasticsearch.plugin:transport-netty4-client:jar:6.0.0/io.netty:netty-resolver:jar:4.1.43.Final</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:6.0.0/org.elasticsearch.plugin:transport-netty4-client:jar:6.0.0/io.netty:netty-transport:jar:4.1.43.Final</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:6.0.0/org.elasticsearch.plugin:reindex-client:jar:6.0.0</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:6.0.0/org.elasticsearch.plugin:reindex-client:jar:6.0.0/org.elasticsearch.client:elasticsearch-rest-client:jar:6.0.0</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:6.0.0/org.elasticsearch.plugin:reindex-client:jar:6.0.0/org.elasticsearch.client:elasticsearch-rest-client:jar:6.0.0/org.apache.httpcomponents:httpasyncclient:jar:4.1.4</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:6.0.0/org.elasticsearch.plugin:reindex-client:jar:6.0.0/org.elasticsearch.client:elasticsearch-rest-client:jar:6.0.0/org.apache.httpcomponents:httpcore-nio:jar:4.4.12</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:6.0.0/org.elasticsearch.plugin:lang-mustache-client:jar:6.0.0</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:6.0.0/org.elasticsearch.plugin:lang-mustache-client:jar:6.0.0/com.github.spullara.mustache.java:compiler:jar:0.9.3</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:6.0.0/org.elasticsearch.plugin:percolator-client:jar:6.0.0</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:6.0.0/org.elasticsearch.plugin:parent-join-client:jar:6.0.0</node>
+            <node x="" y="">net.sf.ehcache:ehcache-core:jar:2.6.9</node>
+            <node x="" y="">net.sf.ehcache:ehcache-core:jar:2.6.9/org.slf4j:slf4j-api:jar:1.7.7</node>
+            <node x="" y="">net.sf.ehcache:ehcache:jar:2.9.0</node>
+            <node x="" y="">org.apache.hbase:hbase:pom:1.2.0</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/org.apache.hadoop:hadoop-annotations:jar:2.5.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/org.apache.hadoop:hadoop-annotations:jar:2.5.1/jdk.tools:jdk.tools:jar:1.6</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/com.google.guava:guava:jar:11.0.2</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/commons-cli:commons-cli:jar:1.2</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/org.apache.commons:commons-math3:jar:3.1.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/xmlenc:xmlenc:jar:0.52</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/commons-httpclient:commons-httpclient:jar:3.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/commons-httpclient:commons-httpclient:jar:3.1/commons-logging:commons-logging:jar:1.0.4</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/commons-codec:commons-codec:jar:1.13</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/commons-io:commons-io:jar:2.4</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/commons-net:commons-net:jar:3.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/javax.servlet:servlet-api:jar:2.5</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/org.mortbay.jetty:jetty:jar:6.1.26</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/org.mortbay.jetty:jetty-util:jar:6.1.26</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/com.sun.jersey:jersey-core:jar:1.9</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/com.sun.jersey:jersey-json:jar:1.9</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/com.sun.jersey:jersey-json:jar:1.9/org.codehaus.jettison:jettison:jar:1.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/com.sun.jersey:jersey-json:jar:1.9/com.sun.xml.bind:jaxb-impl:jar:2.2.3-1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/com.sun.jersey:jersey-json:jar:1.9/com.sun.xml.bind:jaxb-impl:jar:2.2.3-1/javax.xml.bind:jaxb-api:jar:2.3.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/com.sun.jersey:jersey-json:jar:1.9/com.sun.xml.bind:jaxb-impl:jar:2.2.3-1/javax.xml.bind:jaxb-api:jar:2.3.1/javax.activation:javax.activation-api:jar:1.2.0</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/com.sun.jersey:jersey-json:jar:1.9/org.codehaus.jackson:jackson-core-asl:jar:1.8.3</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/com.sun.jersey:jersey-json:jar:1.9/org.codehaus.jackson:jackson-mapper-asl:jar:1.8.3</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/com.sun.jersey:jersey-json:jar:1.9/org.codehaus.jackson:jackson-jaxrs:jar:1.8.3</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/com.sun.jersey:jersey-json:jar:1.9/org.codehaus.jackson:jackson-jaxrs:jar:1.8.3/org.codehaus.jackson:jackson-core-asl:jar:1.9.13</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/com.sun.jersey:jersey-json:jar:1.9/org.codehaus.jackson:jackson-jaxrs:jar:1.8.3/org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/com.sun.jersey:jersey-json:jar:1.9/org.codehaus.jackson:jackson-xc:jar:1.8.3</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/com.sun.jersey:jersey-json:jar:1.9/org.codehaus.jackson:jackson-xc:jar:1.8.3/org.codehaus.jackson:jackson-core-asl:jar:1.9.13</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/com.sun.jersey:jersey-json:jar:1.9/org.codehaus.jackson:jackson-xc:jar:1.8.3/org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/com.sun.jersey:jersey-server:jar:1.9</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/com.sun.jersey:jersey-server:jar:1.9/asm:asm:jar:3.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/tomcat:jasper-compiler:jar:5.5.23</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/tomcat:jasper-runtime:jar:5.5.23</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/tomcat:jasper-runtime:jar:5.5.23/javax.servlet:servlet-api:jar:2.4</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/javax.servlet.jsp:jsp-api:jar:2.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/commons-el:commons-el:jar:1.0</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/commons-el:commons-el:jar:1.0/commons-logging:commons-logging:jar:1.0.3</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/commons-logging:commons-logging:jar:1.1.3</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/net.java.dev.jets3t:jets3t:jar:0.9.0</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/net.java.dev.jets3t:jets3t:jar:0.9.0/commons-logging:commons-logging:jar:1.1.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/net.java.dev.jets3t:jets3t:jar:0.9.0/org.apache.httpcomponents:httpcore:jar:4.4.12</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/net.java.dev.jets3t:jets3t:jar:0.9.0/com.jamesmurty.utils:java-xmlbuilder:jar:0.4</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/commons-configuration:commons-configuration:jar:1.6</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/commons-configuration:commons-configuration:jar:1.6/commons-lang:commons-lang:jar:2.4</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/commons-configuration:commons-configuration:jar:1.6/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/commons-configuration:commons-configuration:jar:1.6/commons-digester:commons-digester:jar:1.8</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/commons-configuration:commons-configuration:jar:1.6/commons-digester:commons-digester:jar:1.8/commons-beanutils:commons-beanutils:jar:1.7.0</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/commons-configuration:commons-configuration:jar:1.6/commons-digester:commons-digester:jar:1.8/commons-beanutils:commons-beanutils:jar:1.7.0/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/commons-configuration:commons-configuration:jar:1.6/commons-digester:commons-digester:jar:1.8/commons-logging:commons-logging:jar:1.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/commons-configuration:commons-configuration:jar:1.6/commons-beanutils:commons-beanutils-core:jar:1.8.0</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/commons-configuration:commons-configuration:jar:1.6/commons-beanutils:commons-beanutils-core:jar:1.8.0/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/org.slf4j:slf4j-log4j12:jar:1.7.7</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/org.codehaus.jackson:jackson-core-asl:jar:1.9.13</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/org.apache.avro:avro:jar:1.7.4</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/org.apache.avro:avro:jar:1.7.4/org.codehaus.jackson:jackson-core-asl:jar:1.8.8</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/org.apache.avro:avro:jar:1.7.4/org.codehaus.jackson:jackson-mapper-asl:jar:1.8.8</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/org.apache.avro:avro:jar:1.7.4/com.thoughtworks.paranamer:paranamer:jar:2.3</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/org.apache.avro:avro:jar:1.7.4/org.xerial.snappy:snappy-java:jar:1.0.4.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/com.google.protobuf:protobuf-java:jar:2.5.0</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/org.apache.hadoop:hadoop-auth:jar:2.5.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/org.apache.hadoop:hadoop-auth:jar:2.5.1/org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M15</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/org.apache.hadoop:hadoop-auth:jar:2.5.1/org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M15/org.apache.directory.server:apacheds-i18n:jar:2.0.0-M15</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/org.apache.hadoop:hadoop-auth:jar:2.5.1/org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M15/org.apache.directory.api:api-asn1-api:jar:1.0.0-M20</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/org.apache.hadoop:hadoop-auth:jar:2.5.1/org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M15/org.apache.directory.api:api-util:jar:1.0.0-M20</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/com.jcraft:jsch:jar:0.1.54</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/com.google.code.findbugs:jsr305:jar:1.3.9</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/org.apache.zookeeper:zookeeper:jar:3.4.6</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/org.apache.zookeeper:zookeeper:jar:3.4.6/log4j:log4j:jar:1.2.16</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/org.apache.zookeeper:zookeeper:jar:3.4.6/io.netty:netty:jar:3.7.0.Final</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/org.apache.commons:commons-compress:jar:1.4.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.5.1/org.apache.commons:commons-compress:jar:1.4.1/org.tukaani:xz:jar:1.0</node>
+            <node x="" y="">com.google.guava:guava:jar:16.0.1</node>
+            <node x="" y="">com.hyd:hydrogen-ssdb:jar:1.0.0-20170829.083404-1</node>
+            <node x="" y="">redis.clients:jedis:jar:2.9.0</node>
+            <node x="" y="">com.beust:jcommander:jar:1.35</node>
+            <node x="" y="">com.google.code.gson:gson:jar:2.8.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.10.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.10.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.2.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.29</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.2.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.29</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.2.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.29</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:2.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:2.2.2.RELEASE/jakarta.validation:jakarta.validation-api:jar:2.0.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:2.2.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.18.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:2.2.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.18.Final/org.jboss.logging:jboss-logging:jar:3.4.1.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:2.2.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.18.Final/com.fasterxml:classmate:jar:1.5.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-web:jar:5.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.2.RELEASE</node>
+            <node x="" y="">org.projectlombok:lombok:jar:0.12.0</node>
+            <node x="" y="">com.ctrip.framework.apollo:apollo-client:jar:0.8.0</node>
+            <node x="" y="">com.ctrip.framework.apollo:apollo-core:jar:0.8.0</node>
+            <node x="" y="">org.apache.commons:commons-lang3:jar:3.3.2</node>
+            <node x="" y="">commons-lang:commons-lang:jar:2.6</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:8.0.13</node>
+            <node x="" y="">com.alibaba:druid:jar:1.1.12</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.44522020916187954" x="11828.037204961916" y="2183.575637800731" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/rule/impl/RuleHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+          <folding>
+            <element signature="e#1366#1367#0" expanded="true" />
+            <element signature="e#1445#1446#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar!/javax/servlet/ServletContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="142" selection-start-line="142" selection-end-line="142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29.jar!/javax/servlet/ServletContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="133" column="31" selection-start-line="133" selection-start-column="11" selection-end-line="133" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar!/javax/servlet/ServletContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs_err_pid19852.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replay_pid19852.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recall-scheduler-filterService-eureka1/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recall-scheduler-filterService-eureka1/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/utils/TrieTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/utils/ToolAssit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/item/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/service/FilterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recall-scheduler-filterService-eureka1/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recall-scheduler-filterService-eureka1/src/main/java/com/controller/eureka1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/service/impl/DocumentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/mapper/DocumentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="336" column="19" selection-start-line="336" selection-start-column="19" selection-end-line="336" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/FilterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/crontabTask/ScheduleManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/ctrrank/EvItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/contoller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="44" column="37" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/develop/config/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ehcache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1911">
+          <caret line="114" column="7" selection-start-line="114" selection-start-column="7" selection-end-line="114" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/online/config/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/apolloConf/ApolloConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/apolloConf/ApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/apolloConf/BossApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/apolloConf/DebugUserConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/apolloConf/DocSourceFilterConfigUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/apolloConf/JpPreTopPhoneTypeConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/support/ApolloConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="169" column="41" selection-start-line="169" selection-start-column="41" selection-end-line="169" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/apolloConf/KeywordFilterConfigUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/bean/LastDocBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/user/UserSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="104" column="33" lean-forward="true" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifeng/recallScheduler/utils/UserActionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="348" column="12" selection-start-line="348" selection-start-column="12" selection-end-line="348" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.39655173" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.39655173" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.10.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.39655173" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|recall-scheduler-filterService</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.39655173" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

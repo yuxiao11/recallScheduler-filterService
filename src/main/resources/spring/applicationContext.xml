@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util" xmlns:task="http://www.springframework.org/schema/task"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:apollo="http://www.ctrip.com/schema/apollo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd http://www.ctrip.com/schema/apollo http://www.ctrip.com/schema/apollo.xsd">
+
+
+    <bean class="com.ifeng.recallScheduler.support.PropertySupport">
+        <property name="locations">
+            <list>
+                <value>classpath*:config/*.properties</value>
+            </list>
+        </property>
+    </bean>
+
+    <context:component-scan base-package="com.ifeng.recallScheduler" />
+    <context:annotation-config/>
+    <apollo:config></apollo:config>
+
+    <!-- 配置使Spring采用CGLIB代理 -->
+    <aop:aspectj-autoproxy proxy-target-class="true" />
+
+    <task:annotation-driven />
+
+
+    <bean id="cacheManagerFactory" class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean">
+        <property name="configLocation" value="classpath:ehcache.xml" />
+    </bean>
+
+    <bean id="cacheManager" class="org.springframework.cache.ehcache.EhCacheCacheManager">
+        <property name="cacheManager"  ref="cacheManagerFactory"/>
+    </bean>
+
+    <bean name="genericObjectPoolConfig" class="org.apache.commons.pool2.impl.GenericObjectPoolConfig">
+        <property name="maxWaitMillis" value="-1" />
+        <property name="maxTotal" value="200" />
+        <property name="minIdle" value="8" />
+        <property name="maxIdle" value="100" />
+    </bean>
+
+
+
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+    <bean id="sansuSqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="sansuDataSource" />
+    </bean>
+
+    <bean id="negCommentSqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="negCommentDataSource" />
+    </bean>
+
+    <bean id="exploreSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="exploreDataSource" />
+    </bean>
+
+    <bean id="hotEventsFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="hotEventsDataSource" />
+    </bean>
+
+    <bean id="hotNewsFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="hotNewsDataSource" />
+    </bean>
+    <!--创建数据映射器，数据映射器必须为接口-->
+    <bean id="sourceInfoMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+        <property name="mapperInterface" value="com.ifeng.recallScheduler.dao.mapper.SourceInfoMapper" />
+        <property name="sqlSessionFactory" ref="sqlSessionFactory" />
+    </bean>
+
+    <bean id="videoSourceInfoMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+        <property name="mapperInterface" value="com.ifeng.recallScheduler.dao.mapper.VideoSourceInfoMapper" />
+        <property name="sqlSessionFactory" ref="sqlSessionFactory" />
+    </bean>
+
+    <bean id="sansuDocMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+        <property name="mapperInterface" value="com.ifeng.recallScheduler.dao.mapper.SansuDocMapper" />
+        <property name="sqlSessionFactory" ref="sansuSqlSessionFactory" />
+    </bean>
+
+
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="username" value="al_basic_data_r"/>
+        <property name="password" value="7cjUQezYJ43f7k4P"/>
+        <property name="url" value="jdbc:mysql://10.80.134.20:3307/al_basic_data"/>
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <!-- 配置初始化大小、最小、最大 -->
+        <property name="initialSize" value="3"/>
+        <property name="minIdle" value="3"/>
+        <property name="maxActive" value="100"/>
+        <property name="maxWait" value="60000"/>
+
+        <property name="testOnBorrow" value="true"/>
+        <property name="testOnReturn" value="true"/>
+        <property name="testWhileIdle" value="true"/>
+        <property name="validationQuery" value="select 1 from DUAL"/>
+    </bean>
+
+    <bean id="sansuDataSource" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="username" value="NewsAssess_r"/>
+        <property name="password" value="f6g3tZqNS3AcPqEz"/>
+        <property name="url" value="jdbc:mysql://10.80.134.20:3310/NewsAssess"/>
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+
+        <!-- 配置初始化大小、最小、最大 -->
+        <property name="initialSize" value="3"/>
+        <property name="minIdle" value="3"/>
+        <property name="maxActive" value="100"/>
+        <property name="maxWait" value="60000"/>
+
+        <property name="testOnBorrow" value="true"/>
+        <property name="testOnReturn" value="true"/>
+        <property name="testWhileIdle" value="true"/>
+        <property name="validationQuery" value="select 1 from DUAL"/>
+    </bean>
+
+    <bean id="negCommentDataSource" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="username" value="neg_comment_r"/>
+        <property name="password" value="ujV5239SxlRAaNPG"/>
+        <property name="url" value="jdbc:mysql://10.80.134.20:4003/neg_comment"/>
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+
+        <!-- 配置初始化大小、最小、最大 -->
+        <property name="initialSize" value="3"/>
+        <property name="minIdle" value="3"/>
+        <property name="maxActive" value="100"/>
+        <property name="maxWait" value="60000"/>
+
+        <property name="testOnBorrow" value="true"/>
+        <property name="testOnReturn" value="true"/>
+        <property name="testWhileIdle" value="true"/>
+        <property name="validationQuery" value="select 1 from DUAL"/>
+    </bean>
+
+    <bean id="exploreDataSource" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="username" value="recom"/>
+        <property name="password" value="recom2017"/>
+        <property name="url" value="jdbc:mysql://10.90.9.32:3306/recom_operators"/>
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+
+        <!-- 配置初始化大小、最小、最大 -->
+        <property name="initialSize" value="3"/>
+        <property name="minIdle" value="3"/>
+        <property name="maxActive" value="100"/>
+        <property name="maxWait" value="60000"/>
+
+        <property name="testOnBorrow" value="true"/>
+        <property name="testOnReturn" value="true"/>
+        <property name="testWhileIdle" value="true"/>
+        <property name="validationQuery" value="select 1 from DUAL"/>
+    </bean>
+
+    <bean id="hotEventsDataSource" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="username" value="recom_opts_r"/>
+        <property name="password" value="31NpwsAW4zAOynRq"/>
+        <property name="url" value="jdbc:mysql://10.80.134.19:4001/recom_opts"/>
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+
+        <!-- 配置初始化大小、最小、最大 -->
+        <property name="initialSize" value="3"/>
+        <property name="minIdle" value="3"/>
+        <property name="maxActive" value="100"/>
+        <property name="maxWait" value="60000"/>
+
+        <property name="testOnBorrow" value="true"/>
+        <property name="testOnReturn" value="true"/>
+        <property name="testWhileIdle" value="true"/>
+        <property name="validationQuery" value="select 1 from DUAL"/>
+    </bean>
+
+    <bean id="hotNewsDataSource" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="username" value="crawl_r"/>
+        <property name="password" value="ijfkULyMqjE3WVS3"/>
+        <property name="url" value="jdbc:mysql://10.80.134.19:3307/crawl_data"/>
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+
+        <!-- 配置初始化大小、最小、最大 -->
+        <property name="initialSize" value="3"/>
+        <property name="minIdle" value="3"/>
+        <property name="maxActive" value="100"/>
+        <property name="maxWait" value="60000"/>
+
+        <property name="testOnBorrow" value="true"/>
+        <property name="testOnReturn" value="true"/>
+        <property name="testWhileIdle" value="true"/>
+        <property name="validationQuery" value="select 1 from DUAL"/>
+    </bean>
+</beans>

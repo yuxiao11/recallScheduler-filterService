@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="ehcache.xsd" updateCheck="false"
+	monitoring="autodetect" dynamicConfig="true">
+	<diskStore path="java.io.tmpdir" />
+
+<!--	<cacheManagerPeerListenerFactory
+			class="org.terracotta.ehcachedx.monitor.probe.ProbePeerListenerFactory"
+			properties="monitorAddress=10.21.6.95, monitorPort=9889" />-->
+
+	<transactionManagerLookup
+		class="net.sf.ehcache.transaction.manager.DefaultTransactionManagerLookup"
+		properties="jndiName=java:/TransactionManager" propertySeparator=";" />
+	<cacheManagerEventListenerFactory
+		class="" properties="" />
+	<cacheManagerPeerProviderFactory
+		class="net.sf.ehcache.distribution.RMICacheManagerPeerProviderFactory"
+		properties="peerDiscovery=automatic,
+                        multicastGroupAddress=230.0.0.1,
+                        multicastGroupPort=4446, timeToLive=1"
+		propertySeparator="," />
+	<cacheManagerPeerListenerFactory
+		class="net.sf.ehcache.distribution.RMICacheManagerPeerListenerFactory" />
+	<defaultCache maxEntriesLocalHeap="10000" eternal="false"
+		timeToIdleSeconds="120" timeToLiveSeconds="120" diskSpoolBufferSizeMB="30"
+		maxEntriesLocalDisk="10000000" diskExpiryThreadIntervalSeconds="120"
+		memoryStoreEvictionPolicy="LRU" >
+		<persistence strategy="localTempSwap" />
+	</defaultCache>
+
+
+	<!--个性化推荐的docid的缓存，过期时间4小时，数据量最大30万-->
+	<cache name="personalIndex" maxElementsInMemory="200000"
+		   maxEntriesLocalHeap="200000" maxEntriesLocalDisk="200000" eternal="false"
+		   diskSpoolBufferSizeMB="30000" timeToIdleSeconds="14400"
+		   timeToLiveSeconds="14401"
+		    memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"  overflowToDisk="false">
+	</cache>
+
+
+
+	<!--个性化推荐的Document的缓存，过期时间72小时，数据量最大70万-->
+	<cache name="personalDocumentInfo" maxElementsInMemory="1000000"
+		   maxEntriesLocalHeap="1000000" maxEntriesLocalDisk="1000000" eternal="false"
+		   diskSpoolBufferSizeMB="1000" timeToIdleSeconds="864000"
+		   timeToLiveSeconds="864000" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"  overflowToDisk="false">
+	</cache>
+
+	<!--冷启动的凤凰热闻榜的数据，过期时间3600*24*5  共5天，避免redis挂了造成线上没有数据的情况-->
+	<cache name="hotRecomDocument" maxElementsInMemory="100000"
+		   maxEntriesLocalHeap="300000" maxEntriesLocalDisk="300000" eternal="false"
+		   diskSpoolBufferSizeMB="200" timeToIdleSeconds="432000"
+		   timeToLiveSeconds="432000" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"  overflowToDisk="false">
+	</cache>
+
+
+	<!--冷启动的小视频的数据，过期时间3600*24*5  共5天，避免redis挂了造成线上没有数据的情况-->
+	<cache name="hotRecomMini" maxElementsInMemory="100000"
+		   maxEntriesLocalHeap="100000" maxEntriesLocalDisk="100000" eternal="false"
+		   diskSpoolBufferSizeMB="200" timeToIdleSeconds="432000"
+		   timeToLiveSeconds="432000" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"  overflowToDisk="false">
+	</cache>
+
+	<!--运营维护的冷启动的长效热闻的数据，过期时间48小时，避免redis挂了造成线上没有数据的情况-->
+	<cache name="LongOperationBackup" maxElementsInMemory="100000"
+		   maxEntriesLocalHeap="100000" maxEntriesLocalDisk="100000" eternal="false"
+		   diskSpoolBufferSizeMB="200" timeToIdleSeconds="432000"
+		   timeToLiveSeconds="432000" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"  overflowToDisk="false">
+	</cache>
+
+	<!--s级媒体的打底池子-->
+	<cache name="LvS_hotRecomDocument" maxElementsInMemory="100000"
+		   maxEntriesLocalHeap="100000" maxEntriesLocalDisk="100000" eternal="false"
+		   diskSpoolBufferSizeMB="200" timeToIdleSeconds="432000"
+		   timeToLiveSeconds="432000" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+	<!--冷启动的一点资讯的视频数据，过期时间10小时，避免没有视频的问题-->
+	<cache name="YidianVideoHot" maxElementsInMemory="100000"
+		   maxEntriesLocalHeap="100000" maxEntriesLocalDisk="100000" eternal="false"
+		   diskSpoolBufferSizeMB="200" timeToIdleSeconds="360000"
+		   timeToLiveSeconds="360000" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"  overflowToDisk="false">
+	</cache>
+
+	<!--冷启动的一点资讯的视频数据，过期时间10小时，避免没有视频的问题-->
+	<cache name="ifengHotVideoDocument" maxElementsInMemory="100000"
+		   maxEntriesLocalHeap="300000" maxEntriesLocalDisk="300000" eternal="false"
+		   diskSpoolBufferSizeMB="200" timeToIdleSeconds="360000"
+		   timeToLiveSeconds="360000" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"  overflowToDisk="false">
+	</cache>
+
+	<!--混合的视频打底数据，过期时间10小时，避免没有视频的问题-->
+	<cache name="ifengMixedVideoDocument" maxElementsInMemory="100000"
+		   maxEntriesLocalHeap="100000" maxEntriesLocalDisk="100000" eternal="false"
+		   diskSpoolBufferSizeMB="200" timeToIdleSeconds="360000"
+		   timeToLiveSeconds="360000" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"  overflowToDisk="false">
+	</cache>
+
+	<cache name="sansuBlack" maxElementsInMemory="20000"
+		   maxEntriesLocalHeap="20000" maxEntriesLocalDisk="20000" eternal="false"
+		   diskSpoolBufferSizeMB="200" timeToIdleSeconds="172800"
+		   timeToLiveSeconds="172800" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+	<cache name="negCommentBlack" maxElementsInMemory="20000"
+		   maxEntriesLocalHeap="20000" maxEntriesLocalDisk="20000" eternal="false"
+		   diskSpoolBufferSizeMB="200" timeToIdleSeconds="172800"
+		   timeToLiveSeconds="172800" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+	<cache name="EditorFocus" maxElementsInMemory="10"
+		   maxEntriesLocalHeap="150000" maxEntriesLocalDisk="300000" eternal="false"
+		   diskSpoolBufferSizeMB="200" timeToIdleSeconds="3000"
+		   timeToLiveSeconds="3600" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+	<cache name="EditorRegularPosition" maxElementsInMemory="10"
+		   maxEntriesLocalHeap="150000" maxEntriesLocalDisk="300000" eternal="false"
+		   diskSpoolBufferSizeMB="200" timeToIdleSeconds="3000"
+		   timeToLiveSeconds="3600" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+	<cache name="EditorJpPool" maxElementsInMemory="2000"
+		   maxEntriesLocalHeap="2000" maxEntriesLocalDisk="2000" eternal="false"
+		   diskSpoolBufferSizeMB="200" timeToIdleSeconds="3000"
+		   timeToLiveSeconds="3600" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+	<!-- 从ES中获取的精品池数据 -->
+	<cache name="EditorEsJpPool" maxElementsInMemory="2000"
+		   maxEntriesLocalHeap="20000" maxEntriesLocalDisk="20000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="3000"
+		   timeToLiveSeconds="3600" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+	<!-- 从ES中获取的个性化精品池数据，过期时间5分钟，数据量最大5万 -->
+	<cache name="EditorEsJpIndex" maxElementsInMemory="10000"
+		   maxEntriesLocalHeap="10000" maxEntriesLocalDisk="10000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="600"
+		   timeToLiveSeconds="600" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"  overflowToDisk="false">
+	</cache>
+
+	<!--长效精品池Document缓存数据，过期时间7天，数据量最大10000条-->
+	<cache name="EditorEsJpLongterm" maxElementsInMemory="10000"
+		   maxEntriesLocalHeap="10000" maxEntriesLocalDisk="10000" eternal="false"
+		   diskSpoolBufferSizeMB="1000" timeToIdleSeconds="604800"
+		   timeToLiveSeconds="604800" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"  overflowToDisk="false">
+	</cache>
+
+
+	<cache name="EditorJpPoolWithEv" maxElementsInMemory="2000"
+		   maxEntriesLocalHeap="2000" maxEntriesLocalDisk="2000" eternal="false"
+		   diskSpoolBufferSizeMB="200" timeToIdleSeconds="30000"
+		   timeToLiveSeconds="36000" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+	<!--精品池 曝光量大于10000 转化率小于百分之八的前50 -->
+	<cache name="EditorJpPoolWithHighEvLowPv" maxElementsInMemory="200"
+		   maxEntriesLocalHeap="2000" maxEntriesLocalDisk="2000" eternal="false"
+		   diskSpoolBufferSizeMB="100" timeToIdleSeconds="3000"
+		   timeToLiveSeconds="3600" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+
+	<cache name="AbTest" maxElementsInMemory="200000"
+		   maxEntriesLocalHeap="200000" maxEntriesLocalDisk="200000" eternal="false"
+		   diskSpoolBufferSizeMB="200" timeToIdleSeconds="7200"
+		   timeToLiveSeconds="7200" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+
+	<!--精品池的Document的缓存，过期时间2小时，数据量最大5000-->
+	<cache name="jpPoolDocument" maxElementsInMemory="5000"
+		   maxEntriesLocalHeap="5000" maxEntriesLocalDisk="5000" eternal="false"
+		   diskSpoolBufferSizeMB="1000" timeToIdleSeconds="3000"
+		   timeToLiveSeconds="3600" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"  overflowToDisk="false">
+	</cache>
+
+	<!--精品池的docid的缓存，过期时间5分钟，数据量最大5万-->
+	<cache name="jpPoolIndex" maxElementsInMemory="50000"
+		   maxEntriesLocalHeap="50000" maxEntriesLocalDisk="50000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="290"
+		   timeToLiveSeconds="300" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"  overflowToDisk="false">
+	</cache>
+
+	<!--精品池mix个性化的docid的缓存，过期时间5分钟，数据量最大5万-->
+	<cache name="jpPoolMixIndex" maxElementsInMemory="50000"
+		   maxEntriesLocalHeap="50000" maxEntriesLocalDisk="50000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="290"
+		   timeToLiveSeconds="300" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"  overflowToDisk="false">
+	</cache>
+
+    <!--编辑优质精选-->
+    <cache name="jpPoolPreDocument" maxElementsInMemory="5000"
+           maxEntriesLocalHeap="5000" maxEntriesLocalDisk="5000" eternal="false"
+           diskSpoolBufferSizeMB="500" timeToIdleSeconds="290"
+           timeToLiveSeconds="300" memoryStoreEvictionPolicy="LRU"
+           transactionalMode="off"  overflowToDisk="false">
+    </cache>
+
+
+    <!-- 编辑精品池长效优质精选 -->
+    <cache name="jpPoolPreLongDocument" maxElementsInMemory="5000"
+           maxEntriesLocalHeap="5000" maxEntriesLocalDisk="5000" eternal="false"
+           diskSpoolBufferSizeMB="500" timeToIdleSeconds="290"
+           timeToLiveSeconds="300" memoryStoreEvictionPolicy="LRU"
+           transactionalMode="off"  overflowToDisk="false">
+    </cache>
+
+
+	<!--正反馈强插的docid的缓存，过期时间60分钟，数据量最大25万-->
+	<cache name="PositiveFeedIndex" maxElementsInMemory="250000"
+		   maxEntriesLocalHeap="250000" maxEntriesLocalDisk="250000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="3600"
+		   timeToLiveSeconds="3600" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"  overflowToDisk="false">
+	</cache>
+
+
+	<!--正反馈强插的docid为空的缓存，避免多次查询，过期时间1分钟，数据量最大15万-->
+	<cache name="NullPositiveFeedIndex" maxElementsInMemory="150000"
+		   maxEntriesLocalHeap="150000" maxEntriesLocalDisk="150000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="59"
+		   timeToLiveSeconds="60" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"  overflowToDisk="false">
+	</cache>
+
+	<!--正反馈强插的docid为空的缓存，避免多次查询，过期时间1分钟，数据量最大15万-->
+	<cache name="NullVideoPositiveFeedIndex" maxElementsInMemory="150000"
+		   maxEntriesLocalHeap="150000" maxEntriesLocalDisk="150000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="59"
+		   timeToLiveSeconds="60" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"  overflowToDisk="false">
+	</cache>
+
+
+	<!--视频正反馈强插的docid的缓存，过期时间20分钟，数据量最大15万-->
+	<cache name="VideoPositiveFeedIndex" maxElementsInMemory="150000"
+		   maxEntriesLocalHeap="150000" maxEntriesLocalDisk="150000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="1100"
+		   timeToLiveSeconds="1200" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"  overflowToDisk="false">
+	</cache>
+
+    <!-- 视频cdml正反馈为空的缓存 -->
+    <cache name="NullCdmlVideoPositiveFeedIndex" maxElementsInMemory="150000"
+           maxEntriesLocalHeap="150000" maxEntriesLocalDisk="150000" eternal="false"
+           diskSpoolBufferSizeMB="500" timeToIdleSeconds="59"
+           timeToLiveSeconds="60" memoryStoreEvictionPolicy="LRU"
+           transactionalMode="off"  overflowToDisk="false">
+    </cache>
+
+
+    <!--视频cdml的docid的缓存，过期时间20分钟，数据量最大15万-->
+    <cache name="CdmlVideoPositiveFeedIndex" maxElementsInMemory="150000"
+           maxEntriesLocalHeap="150000" maxEntriesLocalDisk="150000" eternal="false"
+           diskSpoolBufferSizeMB="500" timeToIdleSeconds="1100"
+           timeToLiveSeconds="1200" memoryStoreEvictionPolicy="LRU"
+           transactionalMode="off"  overflowToDisk="false">
+    </cache>
+
+	<!-- 视频related正反馈为空的缓存 -->
+	<cache name="NullRelatedVideoPositiveFeedIndex" maxElementsInMemory="150000"
+		   maxEntriesLocalHeap="150000" maxEntriesLocalDisk="150000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="59"
+		   timeToLiveSeconds="60" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"  overflowToDisk="false">
+	</cache>
+
+
+	<!--视频related的docid的缓存，过期时间20分钟，数据量最大15万-->
+	<cache name="RelatedVideoPositiveFeedIndex" maxElementsInMemory="150000"
+		   maxEntriesLocalHeap="150000" maxEntriesLocalDisk="150000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="1100"
+		   timeToLiveSeconds="1200" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"  overflowToDisk="false">
+	</cache>
+
+	<!--同一个数据来源的simid对用户的正反馈强插的计数的缓存，避免推荐次数较多，过期时间10小时，数据量最大100万-->
+	<cache name="PositiveFeedSimIdCount" maxElementsInMemory="1000000"
+		   maxEntriesLocalHeap="1000000" maxEntriesLocalDisk="1000000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="35000"
+		   timeToLiveSeconds="36000" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+	<!--用户session，这里不指定timeToLiveSeconds，只要用户一直刷就会一直存在,缓存半小时，容量20万-->
+	<cache name="UserSession" maxElementsInMemory="120000"
+		   maxEntriesLocalHeap="120000" maxEntriesLocalDisk="120000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="36000"
+		   memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+	<!--用户 短session 记录用户在一个session内部 产生的各种数据-->
+	<cache name="UserShortSession" maxElementsInMemory="200000"
+		   maxEntriesLocalHeap="200000" maxEntriesLocalDisk="200000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="900"
+		   timeToLiveSeconds="901"
+		   memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+	<!--用户session，用户上下拉计数统计 后改为短session 记录用户在一个session内部 产生的各种数据-->
+	<cache name="UserPullNum" maxElementsInMemory="200000"
+		   maxEntriesLocalHeap="200000" maxEntriesLocalDisk="200000" eternal="false"
+		   diskSpoolBufferSizeMB="1000" timeToIdleSeconds="1200"
+		   timeToLiveSeconds="1201"
+		   memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+	<!--用户session，用户曝光过的recallTag的计数，多样性过滤使用，容量10万-->
+	<cache name="UserEv_RecallTag_Info" maxElementsInMemory="100000"
+		   maxEntriesLocalHeap="100000" maxEntriesLocalDisk="100000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="1800"
+		   timeToLiveSeconds="1800"
+		   memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+	<!--用户session，用户曝光过的recallTag的计数，多样性过滤使用，容量10万-->
+	<cache name="UserEv_RecallTag_Info_longTime" maxElementsInMemory="100000"
+		   maxEntriesLocalHeap="100000" maxEntriesLocalDisk="100000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="21600"
+		   timeToLiveSeconds="21600"
+		   memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+	<!--召回原因的tag的缓存，多样性控制使用-->
+	<cache name="Reason_recallTag" maxElementsInMemory="200000"
+		   maxEntriesLocalHeap="200000" maxEntriesLocalDisk="200000" eternal="false"
+		   diskSpoolBufferSizeMB="300" timeToIdleSeconds="180"
+		   timeToLiveSeconds="181"
+		   memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+	<!--召回原因的tag的缓存，多样性控制使用-->
+	<cache name="debugUserLog" maxElementsInMemory="20000"
+		   maxEntriesLocalHeap="20000" maxEntriesLocalDisk="20000" eternal="false"
+		   diskSpoolBufferSizeMB="300" timeToIdleSeconds="600"
+		   timeToLiveSeconds="600"
+		   memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+	<!--步伟提供的HBaseSimId到docId映射缓存-->
+	<cache name="simIdMapping" maxElementsInMemory="500000"
+		   maxEntriesLocalHeap="500000" maxEntriesLocalDisk="500000" eternal="false"
+		   diskSpoolBufferSizeMB="300" timeToIdleSeconds="3600"
+		   timeToLiveSeconds="3600"
+		   memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+
+	<!--媒体评级的缓存，过期时间72小时，数据量最大30万-->
+	<cache name="SourceInfo_EvalLevel" maxElementsInMemory="1000000"
+		   maxEntriesLocalHeap="1000000" maxEntriesLocalDisk="1000000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="36000"
+		   timeToLiveSeconds="36000" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"  overflowToDisk="false">
+	</cache>
+
+	<!--视频媒体评级的缓存，过期时间72小时，数据量最大10万-->
+	<cache name="VideoSource_EvalLevel" maxElementsInMemory="1000000"
+		   maxEntriesLocalHeap="1000000" maxEntriesLocalDisk="1000000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="36000"
+		   timeToLiveSeconds="36000" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"  overflowToDisk="false">
+	</cache>
+
+	<!--媒体评级的docid为空的缓存，避免多次查询，过期时间1分钟，数据量最大15万-->
+	<cache name="NullSourceInfo_EvalLevel" maxElementsInMemory="1000000"
+		   maxEntriesLocalHeap="1000000" maxEntriesLocalDisk="1000000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="320"
+		   timeToLiveSeconds="320" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"  overflowToDisk="false">
+	</cache>
+
+	<!--报国热闻榜-->
+	<cache name="ServeCountryDocument" maxElementsInMemory="300000"
+		   maxEntriesLocalHeap="300000" maxEntriesLocalDisk="300000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="2592000"
+		   timeToLiveSeconds="2592000" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+	<!--网信静海热闻榜-->
+	<cache name="WxSilenceSeaDocument" maxElementsInMemory="300000"
+		   maxEntriesLocalHeap="300000" maxEntriesLocalDisk="300000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="2592000"
+		   timeToLiveSeconds="2592000" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+
+	<!--凤凰视频精品池缓存-->
+	<cache name="VideoJpPoolDocument" maxElementsInMemory="1000"
+		   maxEntriesLocalHeap="1000" maxEntriesLocalDisk="1000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="2592000"
+		   timeToLiveSeconds="2592000" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+	<!--正能量热闻榜-->
+	<cache name="PositiveEnergyDocument" maxElementsInMemory="300000"
+		   maxEntriesLocalHeap="300000" maxEntriesLocalDisk="300000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="2592000"
+		   timeToLiveSeconds="2592000" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+	<!--当天热闻榜-->
+	<cache name="hotTagIndexBackupLvA" maxElementsInMemory="300000"
+		   maxEntriesLocalHeap="300000" maxEntriesLocalDisk="300000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="3500"
+		   timeToLiveSeconds="3600" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+	<!--热点个性化cache,调过ctr按兴趣分发-->
+	<cache name="hotTagPersonalIndex" maxElementsInMemory="100000"
+		   maxEntriesLocalHeap="100000" maxEntriesLocalDisk="100000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="300"
+		   timeToLiveSeconds="300" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+	<!-- 已推热点事件的用户session,防止热点事件重复曝光-->
+	<cache name="hotTagUserSession" maxElementsInMemory="80000"
+		   maxEntriesLocalHeap="80000" maxEntriesLocalDisk="80000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="7200"
+		   timeToLiveSeconds="7200" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+
+    <!-- 已推热点焦点图事件 -->
+    <cache name = "hotFocusUserSession" maxElementsInMemory="80000"
+           maxEntriesLocalHeap="80000" maxEntriesLocalDisk="80000" eternal="false"
+           diskSpoolBufferSizeMB="500" timeToIdleSeconds="7200"
+           timeToLiveSeconds="7200" memoryStoreEvictionPolicy="LRU"
+           transactionalMode="off" overflowToDisk="false">
+    </cache>
+
+	<!-- 用户已推热点计数 用于热点排序时降权 -->
+	<cache name="hotUserSessionCount" maxElementsInMemory="80000"
+		   maxEntriesLocalHeap="80000" maxEntriesLocalDisk="80000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="7200"
+		   timeToLiveSeconds="7200" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+	<!--当天热闻榜-->
+	<cache name="hotTagIndexBackupNorMal" maxElementsInMemory="300000"
+		   maxEntriesLocalHeap="300000" maxEntriesLocalDisk="300000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="3500"
+		   timeToLiveSeconds="3600" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+
+
+
+	<!--当天本地新闻榜-->
+	<cache name="Local_IndexLngLat" maxElementsInMemory="50000"
+		   maxEntriesLocalHeap="50000" maxEntriesLocalDisk="50000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="3500"
+		   timeToLiveSeconds="3600" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+
+	<!--用户活跃度缓存-->
+	<cache name="UserModel_ua_v" maxElementsInMemory="200000"
+		   maxEntriesLocalHeap="200000" maxEntriesLocalDisk="200000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="18000"
+		   timeToLiveSeconds="18000" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+	<!--用户活跃度缓存-->
+	<cache name="UserModel_ua_v_null" maxElementsInMemory="200000"
+		   maxEntriesLocalHeap="200000" maxEntriesLocalDisk="200000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="300"
+		   timeToLiveSeconds="300" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+
+	<!--根据地域、机型控制冷启动的热门推荐数据   时效100小时-->
+	<cache name="ColdStartRecomHot" maxElementsInMemory="100000"
+		   maxEntriesLocalHeap="100000" maxEntriesLocalDisk="100000" eternal="false"
+		   diskSpoolBufferSizeMB="200" timeToIdleSeconds="360000"
+		   timeToLiveSeconds="360000" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"  overflowToDisk="false">
+	</cache>
+
+	<!--精品池个性化cache,调过ctr按兴趣分发-->
+	<cache name="jpTagPersonalIndex" maxElementsInMemory="10000"
+		   maxEntriesLocalHeap="10000" maxEntriesLocalDisk="10000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="300"
+		   timeToLiveSeconds="300" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+	<!--lastTopic个性化cache,调过ctr按兴趣分发-->
+	<cache name="lastTopicCtrIndex" maxElementsInMemory="10000"
+		   maxEntriesLocalHeap="10000" maxEntriesLocalDisk="10000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="300"
+		   timeToLiveSeconds="300" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+    <!--lastCotag Session 用户推荐的lastCotag标签缓存-->
+    <cache name="lastCotagSession" maxElementsInMemory="30000"
+           maxEntriesLocalHeap="30000" maxEntriesLocalDisk="30000" eternal="false"
+           diskSpoolBufferSizeMB="500" timeToIdleSeconds="1799"
+           timeToLiveSeconds="1800" memoryStoreEvictionPolicy="LRU"
+           transactionalMode="off" overflowToDisk="false">
+    </cache>
+
+	<!--试探新闻的缓存，过期时间15分钟，数据量最大25万-->
+	<cache name="explorePersonalIndex" maxElementsInMemory="80000"
+		   maxEntriesLocalHeap="80000" maxEntriesLocalDisk="80000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="900"
+		   timeToLiveSeconds="901" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"  overflowToDisk="false">
+	</cache>
+
+	<!--订阅新闻的缓存，过期时间12小时，数据量最大25万-->
+	<cache name="userSubPersonalIndex" maxElementsInMemory="50000"
+		   maxEntriesLocalHeap="50000" maxEntriesLocalDisk="50000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="43200"
+		   timeToLiveSeconds="43201" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"  overflowToDisk="false">
+	</cache>
+
+
+	<!--订阅新闻的缓存，过期时间15分钟，数据量最大25万-->
+	<cache name="ucbPersonalIndex" maxElementsInMemory="250000"
+		   maxEntriesLocalHeap="250000" maxEntriesLocalDisk="250000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="900"
+		   timeToLiveSeconds="901" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"  overflowToDisk="false">
+	</cache>
+
+
+    <!--用户上报的粉丝标签缓存，缓存时间6小时-->
+    <cache name="userFansTag" maxElementsInMemory="10000"
+           maxEntriesLocalHeap="10000" maxEntriesLocalDisk="10000" eternal="false"
+           diskSpoolBufferSizeMB="500" timeToIdleSeconds="21600"
+           timeToLiveSeconds="21601" memoryStoreEvictionPolicy="LRU"
+           transactionalMode="off"  overflowToDisk="false">
+    </cache>
+
+    <!-- 用户粉丝标签session缓存, 缓存用户session的刷新和点击情况-->
+    <cache name="userFansTagSession" maxElementsInMemory="10000"
+           maxEntriesLocalHeap="10000" maxEntriesLocalDisk="10000" eternal="false"
+           diskSpoolBufferSizeMB="500" timeToIdleSeconds="21600"
+           timeToLiveSeconds="21600" memoryStoreEvictionPolicy="LRU"
+           transactionalMode="off"  overflowToDisk="false">
+    </cache>
+
+	<!--四五级热点新闻，过期时间10分钟-->
+	<cache name="hotSpotNewsCache" maxElementsInMemory="50000"
+		   maxEntriesLocalHeap="50000" maxEntriesLocalDisk="50000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="600"
+		   timeToLiveSeconds="601" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+	<!--非四五级包框热点新闻，过期时间10分钟-->
+	<cache name="packageHotSpotNewsCache" maxElementsInMemory="50000"
+		   maxEntriesLocalHeap="50000" maxEntriesLocalDisk="50000" eternal="false"
+		   diskSpoolBufferSizeMB="500" timeToIdleSeconds="600"
+		   timeToLiveSeconds="601" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+
+    <cache name="seemBlackUserList" maxElementsInMemory="5000"
+           maxEntriesLocalHeap="5000" maxEntriesLocalDisk="5000" eternal="false"
+           diskSpoolBufferSizeMB="100" timeToIdleSeconds="3600"
+           timeToLiveSeconds="3601" memoryStoreEvictionPolicy="LRU"
+           transactionalMode="off" overflowToDisk="false">
+    </cache>
+
+	<cache name="UserAction" maxElementsInMemory="5000"
+		   maxEntriesLocalHeap="5000" maxEntriesLocalDisk="5000" eternal="false"
+		   diskSpoolBufferSizeMB="100" timeToIdleSeconds="3600"
+		   timeToLiveSeconds="3601" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off" overflowToDisk="false">
+	</cache>
+
+    <cache name="test" maxElementsInMemory="10"
+           maxEntriesLocalHeap="10" maxEntriesLocalDisk="10" eternal="false"
+           diskSpoolBufferSizeMB="100" timeToIdleSeconds="30"
+           timeToLiveSeconds="10" memoryStoreEvictionPolicy="LRU"
+           transactionalMode="off" overflowToDisk="false">
+    </cache>
+
+
+</ehcache>
+
